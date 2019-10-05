@@ -25,3 +25,8 @@ function prependDriver(name) {
   const array = [name,...drivers];
   return array;
 }
+
+function removeLastDriver() {
+  const array = drivers.splich(0,drivers.length-1)
+  return array;
+}
